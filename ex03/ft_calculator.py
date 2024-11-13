@@ -1,10 +1,7 @@
-class calculator:
+class Calculator:
     """
-    A calculator class for performing arithmetic operations between
+    A Calculator class for performing arithmetic operations between
     a vector and a object.
-
-    Attributes:
-        vector (list): The vector on which operations will be performed.
 
     Methods:
         __init__(self, vector): Init the calculator with the provided vector.
@@ -21,9 +18,6 @@ class calculator:
     def __init__(self, vector):
         """
         Initializes the calculator with the provided vector.
-
-        Args:
-            vector (list): The vector on which operations will be performed.
         """
         self.vector = vector
 
@@ -34,7 +28,6 @@ class calculator:
         """
         self.vector = [x + object for x in self.vector]
         print(self.vector)
-        return [x for x in self.vector]
 
     def __mul__(self, object) -> None:
         """
@@ -43,7 +36,6 @@ class calculator:
         """
         self.vector = [x * object for x in self.vector]
         print(self.vector)
-        return [x for x in self.vector]
 
     def __sub__(self, object) -> None:
         """
@@ -52,7 +44,6 @@ class calculator:
         """
         self.vector = [x - object for x in self.vector]
         print(self.vector)
-        return [x for x in self.vector]
 
     def __truediv__(self, object) -> None:
         """
@@ -63,8 +54,9 @@ class calculator:
             ZeroDivisionError: If the object value is 0.
         """
         try:
+            if object == 0:
+                raise ZeroDivisionError("Division by zero is not allowed.")
             self.vector = [x / object for x in self.vector]
             print(self.vector)
-            return [x for x in self.vector]
         except ZeroDivisionError as error:
             print(ZeroDivisionError.__name__ + ":", error)

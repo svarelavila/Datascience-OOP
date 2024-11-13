@@ -1,4 +1,5 @@
 class Calculator:
+    """"Do calculations between two vectors"""
     @staticmethod
     def dotproduct(V1: list[float], V2: list[float]) -> None:
         """
@@ -14,7 +15,7 @@ class Calculator:
     @staticmethod
     def add_vec(V1: list[float], V2: list[float]) -> None:
         """
-        Add two vectors element-wise and print the resulting vector.
+        Calculate vector subtraction and print result
 
         Parameters:
         V1 (list of float): The first vector.
@@ -26,8 +27,7 @@ class Calculator:
     @staticmethod
     def sous_vec(V1: list[float], V2: list[float]) -> None:
         """
-        Subtract the second vector from the first vector element-wise 
-        and print the resulting vector.
+        Calculate vector addtion and print result
 
         Parameters:
         V1 (list of float): The first vector.
