@@ -74,17 +74,11 @@ class Lannister(Character):
         return self.__str__()
 
 
-@classmethod
-def create_lannister(cls, first_name, is_alive=True):
-    """
-    Factory method to create a Lannister character.
-
-    Parameters:
-        first_name (str): The first name of the character.
-        is_alive (bool): The alive status of the character.
-        Defaults to True.
-
-    Returns:
-        Lannister: An instance of the Lannister class.
-    """
-    return cls(first_name, is_alive)
+    @classmethod
+    def create_lannister(cls, first_name: str, is_alive: bool = True):
+        """
+        Create a Lannister character instance with custom is_alive status.
+        Returns:
+            Lannister: An instance of the Lannister character.
+        """
+        return cls(first_name, is_alive)
