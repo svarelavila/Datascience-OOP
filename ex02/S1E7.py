@@ -73,7 +73,6 @@ class Lannister(Character):
         """
         return self.__str__()
 
-
     @classmethod
     def create_lannister(cls, first_name: str, is_alive: bool = True):
         """

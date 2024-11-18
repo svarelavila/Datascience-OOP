@@ -35,4 +35,3 @@ class Calculator:
         """
         result = [x - y for x, y in zip(V1, V2)]
         print(f"Sous Vector is: {[f'{val:.1f}' for val in result]}")
-
