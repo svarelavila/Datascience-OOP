@@ -14,6 +14,7 @@ class King(Baratheon, Lannister):
             is_alive (bool): Whether the King is alive. Default is True.
         """
         super().__init__(first_name, is_alive)
+        
         self._eyes = "brown"  # Default eye color
         self._hairs = "dark"  # Default hair color
 
