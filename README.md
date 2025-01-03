@@ -1,7 +1,8 @@
 # 🧱 Piscine Python for Data Science - Object-Oriented Programming
-<p align="jus">
+<p align="justify">
 Este proyecto está diseñado para enseñar y practicar los fundamentos de la **Programación Orientada a Objetos (OOP)** utilizando Python. A lo largo de los ejercicios, se aprende a trabajar con clases, herencia, métodos y decoradores, aplicando conceptos clave para estructurar código de manera eficiente y escalable.
 </p>
+
 ## 🧩 Ejercicios
 
 | **Ejercicio** | **Descripción**                                                                                   |
