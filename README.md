@@ -1,9 +1,9 @@
-# 🧱 Piscine Python for Data Science - Object-Oriented Programming
+# 🧱 Piscine Python for Data Science - OOP
 <p align="justify">
 Este proyecto está diseñado para enseñar y practicar los fundamentos de la **Programación Orientada a Objetos (OOP)** utilizando Python. A lo largo de los ejercicios, se aprende a trabajar con clases, herencia, métodos y decoradores, aplicando conceptos clave para estructurar código de manera eficiente y escalable.
 </p>
 
-## 🧩 Ejercicios
+### 🧩 Ejercicios
 
 | **Ejercicio** | **Descripción**                                                                                   |
 |---------------|---------------------------------------------------------------------------------------------------|
@@ -13,7 +13,7 @@ Este proyecto está diseñado para enseñar y practicar los fundamentos de la **
 | **ex03**      | Implementa una clase calculadora para operaciones con vectores y escalares (suma, resta, multiplicación, división). |
 | **ex04**      | Extiende la calculadora para manejar operaciones entre dos vectores, como el producto punto y suma de vectores. |
 
-## 🏆 Evaluación
+### 🏆 Evaluación
 
 <p align="left">
   <img src="https://github.com/svarelavila/svarelavila/blob/main/imagenes/ok_100.png" alt="logo" width="125"/>
